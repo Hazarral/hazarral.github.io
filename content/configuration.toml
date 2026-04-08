@@ -32,7 +32,7 @@ longDescription = "The page you are looking for does not exist. Maybe it never e
 cardImage = "https://zaggonaut.dev/michael-dam-unsplash.webp"
 
 [_.hero]
-title = "Zaggonaut"
+title = "Huy"
 subtitle = "Retro-Inspired Theme &<br />Built for Astro"
 image = "https://zaggonaut.dev/michael-dam-unsplash.webp"
 ctaText = "View Projects"
