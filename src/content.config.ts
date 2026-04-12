@@ -46,7 +46,7 @@ const configuration = defineCollection({
       /**
        * The URL of the card image for social media sharing.
        */
-      cardImage: z.url().optional(),
+      cardImage: z.string().optional(),
 
       /**
        * Keywords for SEO, used in the `<meta name="keywords">` tag.
@@ -73,7 +73,7 @@ const configuration = defineCollection({
       /**
        * The URL of the card image for social media sharing.
        */
-      cardImage: z.url().optional(),
+      cardImage: z.string().optional(),
 
       /**
        * Keywords for SEO, used in the `<meta name="keywords">` tag.
@@ -103,7 +103,7 @@ const configuration = defineCollection({
       /**
        * The URL of the card image for social media sharing.
        */
-      cardImage: z.url().optional(),
+      cardImage: z.string().optional(),
 
       /**
        * Keywords for SEO, used in the `<meta name="keywords">` tag.
@@ -133,7 +133,7 @@ const configuration = defineCollection({
       /**
        * The URL of the card image for social media sharing.
        */
-      cardImage: z.url().optional(),
+      cardImage: z.string().optional(),
 
       /**
        * Keywords for SEO, used in the `<meta name="keywords">` tag.
@@ -270,7 +270,7 @@ const blog = defineCollection({
       /**
        * The URL of the card image for social media sharing.
        */
-      cardImage: z.url().optional(),
+      cardImage: z.string().optional(),
 
       /**
        * The tags associated with the blog post, used for categorization and filtering.
@@ -338,7 +338,7 @@ const project = defineCollection({
       /**
        * The URL of the card image for social media sharing.
        */
-      cardImage: z.url().optional(),
+      cardImage: z.string().optional(),
 
       /**
        * The tags associated with the project, used for categorization and filtering.
